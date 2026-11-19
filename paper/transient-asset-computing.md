@@ -349,5 +349,10 @@ The following works provide established context. They are not claimed to validat
 8. Bernstein, P. A., & Newcomer, E. (2009). *Principles of Transaction Processing* (2nd ed.). Morgan Kaufmann.
 9. Burns, B. (2018). *Designing Distributed Systems*. O'Reilly Media.
 10. Amershi, S., et al. (2019). Software Engineering for Machine Learning: A Case Study. *2019 IEEE/ACM 41st International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)*. https://doi.org/10.1109/ICSE-SEIP.2019.00042
+11. Ashfaq, M., Sadik, A. R., Das, T., Waseem, M., Mäkitalo, N., & Mikkonen, T. (2026). Runtime composition in dynamic system of systems: A systematic review of challenges, solutions, tools, and evaluation methods. *Journal of Systems and Software*, 232, 112661. https://doi.org/10.1016/j.jss.2025.112661
+12. Coullon, H., Henrio, L., Loulergue, F., & Robillard, S. (2024 issue; published online 2023). Component-based Distributed Software Reconfiguration: A Verification-oriented Survey. *ACM Computing Surveys*, 56(1), Article 2. https://doi.org/10.1145/3595376
+13. Yu, M., Cao, T., Wang, W., & Chen, R. (2023). Following the Data, Not the Function: Rethinking Function Orchestration in Serverless Computing. *USENIX NSDI 2023*. https://www.usenix.org/conference/nsdi23/presentation/yu
+14. García López, P., Arjona, A., Sampé, J., Slominski, A., & Villard, L. (2021). Triggerflow: Trigger-based orchestration of serverless workflows. *Future Generation Computer Systems*, 124, 215–229. https://doi.org/10.1016/j.future.2021.06.004
+15. Ge, Y., et al. (2026). Software Engineering for LLM-Based Agents: A Lifecycle-Oriented Survey. arXiv:2611.23260. https://arxiv.org/abs/2611.23260
 
 **Bibliographic note:** This is an initial reading list, not a completed systematic review. The references should be checked against the final argument and expanded with direct work on dynamic reconfiguration, ephemeral infrastructure, workflow compensation, capability security, agent runtimes, and software architecture before journal or conference submission.
