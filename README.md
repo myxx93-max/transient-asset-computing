@@ -43,6 +43,18 @@ A separate but potentially complementary research direction asks whether a local
 
 This is a research proposal, not a claim that autonomous self-repair or reliable weight-space improvement has already been demonstrated. The TAC and self-repair tracks remain distinct; possible integration is future work.
 
+## Independent cultural research track: Xianghuo Atlas
+
+A separate project documents sacred beings, ancestors, spirits, places, stories, practices, and community-specific understandings across cultures—without forcing them into one universal pantheon.
+
+- [Xianghuo Atlas overview](xianghuo-atlas/README.md)
+- [Comparative framework](xianghuo-atlas/comparative-framework.md)
+- [Tradition expression guide](xianghuo-atlas/tradition-expression-guide.md)
+- [Community contribution and consent](xianghuo-atlas/contribution-guide.md)
+- [Open community invitation](https://github.com/myxx93-max/transient-asset-computing/issues/4)
+
+The project is currently a conceptual and documentation framework, not a verified global database. Its terminology and tradition notes are open to correction by practitioners, scholars, and community contributors.
+
 ## Scope and status
 
 This is a theory-first proposal. It defines concepts, boundaries, design questions, and testable hypotheses. It is not a production framework, benchmark, or claim of priority over all related work. The relationship to agent sandboxes, serverless orchestration, dynamic composition, software product lines, and transactional agent runtimes is discussed explicitly.
