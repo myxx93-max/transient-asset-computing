@@ -23,6 +23,14 @@ This repository contains a theory paper and a research agenda. It does **not** c
 4. **Execution has an explicit end:** temporary orchestration, bindings, intermediate state, and task-specific glue are retired at finalization.
 5. **Knowledge is selectively retained:** outputs are evaluated and classified for discard, archive, promotion, or quarantine rather than being retained indiscriminately.
 
+## Public examples
+
+- [Dynamic granule lifecycle](examples/dynamic-granule-lifecycle.md)
+- [Illustrative asset relation schema](examples/asset-relation-schema.json)
+- [Anonymized negative-knowledge case study](examples/negative-knowledge-case-study.md)
+
+These examples are deliberately abstract and contain no production datasets, credentials, internal paths, or platform-operational details.
+
 ## Scope and status
 
 This is a theory-first proposal. It defines concepts, boundaries, design questions, and testable hypotheses. It is not a production framework, benchmark, or claim of priority over all related work. The relationship to agent sandboxes, serverless orchestration, dynamic composition, software product lines, and transactional agent runtimes is discussed explicitly in the paper.
