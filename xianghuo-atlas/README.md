@@ -56,6 +56,7 @@ Some traditions are polytheistic; some are monotheistic; some are non-theistic o
 - [Comparative framework and record model](comparative-framework.md)
 - [Tradition expression guide](tradition-expression-guide.md)
 - [Community contribution and consent guide](contribution-guide.md)
+- [Initial reference shelf](references.md)
 
 ## Current status
 
