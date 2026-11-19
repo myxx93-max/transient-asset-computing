@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Illustrative Task-Scoped Asset Relation",
+  "description": "A minimal public example for discussing durable assets and transient task compositions. It contains no production identifiers or private data.",
+  "type": "object",
+  "required": ["asset_id", "asset_type", "lifecycle", "status"],
+  "properties": {
+    "asset_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._:-]{2,79}$"
+    },
+    "asset_type": {
+      "type": "string",
+      "enum": ["capability", "data_contract", "policy", "task_spec", "composition", "evidence", "output"]
+    },
+    "lifecycle": {
+      "type": "string",
+      "enum": ["persistent", "task_scoped", "candidate"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "validated", "quarantined", "retired", "unknown"]
+    },
+    "version": {
+      "type": ["string", "null"]
+    },
+    "task_id": {
+      "type": ["string", "null"],
+      "description": "Required by policy for task_scoped compositions; null for independently governed assets."
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["relation_type", "target_id"],
+        "properties": {
+          "relation_type": {
+            "type": "string",
+            "enum": ["USES", "DEPENDS_ON", "PRODUCED", "VALIDATES", "PROMOTED_FROM", "RETIRES_WITH", "SUPERSEDES", "UNKNOWN"]
+          },
+          "target_id": {
+            "type": "string"
+          },
+          "evidence_ref": {
+            "type": ["string", "null"]
+          },
+          "confidence": {
+            "type": ["number", "null"],
+            "minimum": 0,
+            "maximum": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "source_class": {
+          "type": "string",
+          "enum": ["observed", "derived", "human_asserted", "synthetic_example", "unknown"]
+        },
+        "created_at": {
+          "type": ["string", "null"],
+          "format": "date-time"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
