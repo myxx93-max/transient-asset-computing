@@ -31,9 +31,20 @@ This repository contains a theory paper and a research agenda. It does **not** c
 
 These examples are deliberately abstract and contain no production datasets, credentials, internal paths, or platform-operational details.
 
+## Related research track: Self-Repairing Local AI Systems
+
+A separate but potentially complementary research direction asks whether a local AI execution system can diagnose failures across model, inference-runtime, and agent-workflow layers; propose bounded and reversible repairs; validate them independently; and promote or roll them back using explicit criteria.
+
+- [Research track overview](local-ai-self-repair/README.md)
+- [Falsifiable research agenda](local-ai-self-repair/research-agenda.md)
+- [Related-work map](local-ai-self-repair/related-work-map.md)
+- [Open research discussion](https://github.com/myxx93-max/transient-asset-computing/issues/2)
+
+This is a research proposal, not a claim that autonomous self-repair or reliable weight-space improvement has already been demonstrated. The TAC and self-repair tracks remain distinct; possible integration is future work.
+
 ## Scope and status
 
-This is a theory-first proposal. It defines concepts, boundaries, design questions, and testable hypotheses. It is not a production framework, benchmark, or claim of priority over all related work. The relationship to agent sandboxes, serverless orchestration, dynamic composition, software product lines, and transactional agent runtimes is discussed explicitly in the paper.
+This is a theory-first proposal. It defines concepts, boundaries, design questions, and testable hypotheses. It is not a production framework, benchmark, or claim of priority over all related work. The relationship to agent sandboxes, serverless orchestration, dynamic composition, software product lines, and transactional agent runtimes is discussed explicitly.
 
 ## Suggested citation
 
